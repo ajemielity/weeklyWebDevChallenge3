@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav__elements {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo__img__container {
+  background-color: #7cc775;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.logo__img {
+  margin: auto;
+  display: block;
+  padding: 7px 8px;
+}
+
+.logo__text {
+  text-transform: uppercase;
+}
+
+.home {
+  background-image: url("./images/homeBackground.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services__function {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__function p {
+  text-align: center;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+}
+.support__left {
+  background-color: #E9E9E9;
+}
+
+.support__right {
+  background-image: url('./images/supportBackground.png');
+}
